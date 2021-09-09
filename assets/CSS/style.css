@@ -53,6 +53,8 @@ body{
     z-index: 1;
     top: 0px;
 }
+
+
 .logo{
     width: 15%;
 
@@ -107,6 +109,19 @@ body{
     padding-right: 8%;
     padding-left: 23%;
     background-color: #ffffff;
+    margin-bottom: -16px;
+}
+
+.mrginn{
+    border-top: 1px solid rgb(194, 177, 177);
+    border-left: 1px solid rgb(194, 177, 177);
+    border-right: 1px solid rgb(194, 177, 177);
+    height: 40px;
+    padding-top: 10px;
+    background-color: #ffffff;
+    
+
+
 }
 .firstmenu2{
     padding-right: 8%;
@@ -119,7 +134,8 @@ body{
 .items1st{
     list-style: none;
     overflow: hidden;
-    padding: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
     margin: 0px;
 
 }
@@ -137,7 +153,7 @@ body{
 
 .item1st{
     float: left;
-    
+    padding-top: 10px;
     
 }
 .item1st a{
@@ -145,11 +161,12 @@ body{
     text-decoration: none;
     font-size: 17px;
     padding: 14px;
+    
     font-family: SiyamRupali ;
   
 }
 .item1st a:hover{
-    color: #0397D3;
+    color:#0397d3;
     transition: 1s;
 }
 .items2nd a:hover{
