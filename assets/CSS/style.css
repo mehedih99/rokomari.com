@@ -17,7 +17,7 @@ body{
     display: flex;
     background-color: #ffffff ;
     padding-top: 8px;
-    position: fixed;
+    position: sticky;
     top: 0px;
 }
 .logo{
@@ -386,8 +386,20 @@ padding-top: 12px;
     padding-top: 10px;
     font-family: arial;
 }
+.footerraw1{
+    width: 25%;
+}
+.footerraw2{
+    width: 15%;
+}
+.footerraw3{
+    width: 15%;
+}
+.footerraw4{
+    width: 15%;
+}
+
 .footeritem1{
-    width: 200px;
     font-size: 12px;
 }
 .footeritem2 p{
@@ -402,10 +414,11 @@ padding-top: 12px;
 }
 .fimg{
     padding-top: 20px;
+    padding-left: 20px;
    
 }
 .fimg img{
-    height: 250px;
+    height: 320px;
 }
 .footeritem22 {
     width: 150px;
